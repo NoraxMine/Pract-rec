@@ -3,5 +3,10 @@ def step(x, n):
         return 1
     return step(x, n-1)*x
 
-f = step(2,10)
+v = input()
+y,k = v.split()
+y = int(y)
+k = int(k)
+
+f = step(y,k)
 print(f)
